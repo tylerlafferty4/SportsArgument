@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2548a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Qu1-vk-Omj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sports Argument-->
+        <scene sceneID="oTQ-Lm-cxb">
+            <objects>
+                <tableViewController id="dTv-PF-al1" customClass="ChannelListViewController" customModule="SportsArgument" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xcb-qD-0Ud">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewChannel" id="QC0-KP-ene" customClass="CreateChannelCell" customModule="SportsArgument" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QC0-KP-ene" id="Vhv-RE-DMo">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Create a New Channel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wzl-IE-5GD">
+                                            <rect key="frame" x="16" y="7" width="297" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                        </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPl-Qr-eFo">
+                                            <rect key="frame" x="321" y="7" width="46" height="30"/>
+                                            <state key="normal" title="Create"/>
+                                            <connections>
+                                                <action selector="createChannel:" destination="dTv-PF-al1" eventType="touchUpInside" id="HrP-ZB-0Uy"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="aPl-Qr-eFo" firstAttribute="leading" secondItem="wzl-IE-5GD" secondAttribute="trailing" constant="8" id="6aj-VW-Uju"/>
+                                        <constraint firstItem="aPl-Qr-eFo" firstAttribute="trailing" secondItem="Vhv-RE-DMo" secondAttribute="trailingMargin" id="FfR-Jl-nmx"/>
+                                        <constraint firstItem="aPl-Qr-eFo" firstAttribute="centerY" secondItem="Vhv-RE-DMo" secondAttribute="centerY" id="SPn-s4-VME"/>
+                                        <constraint firstItem="aPl-Qr-eFo" firstAttribute="leading" secondItem="wzl-IE-5GD" secondAttribute="trailing" constant="8" id="jr2-mJ-Dvx"/>
+                                        <constraint firstItem="wzl-IE-5GD" firstAttribute="centerY" secondItem="Vhv-RE-DMo" secondAttribute="centerY" id="paj-8W-diE"/>
+                                        <constraint firstItem="aPl-Qr-eFo" firstAttribute="leading" secondItem="wzl-IE-5GD" secondAttribute="trailing" constant="8" id="upt-yH-pMd"/>
+                                        <constraint firstItem="wzl-IE-5GD" firstAttribute="leading" secondItem="Vhv-RE-DMo" secondAttribute="leadingMargin" constant="8" id="zQp-5s-xEE"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="jr2-mJ-Dvx"/>
+                                            <exclude reference="upt-yH-pMd"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="createChannelButton" destination="aPl-Qr-eFo" id="QTA-Gg-wdU"/>
+                                    <outlet property="newChannelNameField" destination="wzl-IE-5GD" id="M49-xb-tea"/>
+                                    <segue destination="R2C-en-uwb" kind="show" identifier="ShowChannel" id="ego-t8-2Gl">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExistingChannel" textLabel="wwg-8E-f3c" style="IBUITableViewCellStyleDefault" id="JK1-PP-ImS">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JK1-PP-ImS" id="55h-vd-X3e">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wwg-8E-f3c">
+                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dTv-PF-al1" id="IkS-0G-5dC"/>
+                            <outlet property="delegate" destination="dTv-PF-al1" id="p7C-VQ-Kwp"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Sports Argument" id="vAw-S6-pIa"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ukw-tX-0sU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2753" y="-343"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="5YL-uv-kgr">
+            <objects>
+                <viewController id="R2C-en-uwb" customClass="ChatViewController" customModule="SportsArgument" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N1d-QH-k0a"/>
+                        <viewControllerLayoutGuide type="bottom" id="ogK-nS-BQD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I2C-7I-wci">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QTw-rd-KHz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfI-tB-Ku6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3338" y="-344"/>
+        </scene>
+        <!--Locker Room-->
+        <scene sceneID="8QT-Fr-dDG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qu1-vk-Omj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Locker Room" image="selectMessage" id="Xa3-zq-ldp" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" red="0.21960784310000001" green="0.47058823529999999" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="1tA-VD-q7x" id="SMT-Op-Qwf"/>
+                        </connections>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KXd-ew-ClI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.22004194560000001" green="0.47059157489999998" blue="0.87144315240000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dTv-PF-al1" kind="relationship" relationship="rootViewController" id="Hcw-rR-akX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hoB-qe-zPT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="1tA-VD-q7x" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="1966" y="-343"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="selectMessage" width="32" height="25"/>
+    </resources>
+</document>
