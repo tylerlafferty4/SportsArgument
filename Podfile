@@ -1,7 +1,7 @@
 platform :ios, "9.0"
 use_frameworks!
 
-target 'ChatChat' do
+target 'SportsArgument' do
   pod 'Firebase/Storage'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
@@ -9,4 +9,5 @@ target 'ChatChat' do
   pod 'JSQMessagesViewController'
   pod 'RAMAnimatedTabBarController'
   pod 'SwiftSpinner'
+  pod 'CRNetworkButton'
 end

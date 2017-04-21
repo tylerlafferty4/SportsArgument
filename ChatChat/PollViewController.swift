@@ -194,6 +194,9 @@ extension PollViewController {
 extension PollViewController {
     
     func showResultsUI() {
+        hideImgViews()
+        noInteration()
+        unhideVoteLbls()
         option1VotesLbl.text = "\(option1Votes)"
         option2VotesLbl.text = "\(option2Votes)"
         option3VotesLbl.text = "\(option3Votes)"
