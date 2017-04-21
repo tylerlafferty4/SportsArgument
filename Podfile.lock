@@ -53,6 +53,9 @@ PODS:
   - JSQSystemSoundPlayer (2.0.1)
   - Protobuf (3.2.1)
   - RAMAnimatedTabBarController (2.2.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - SwiftSpinner (1.2.1)
 
 DEPENDENCIES:
@@ -63,6 +66,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - JSQMessagesViewController
   - RAMAnimatedTabBarController
+  - SDWebImage (~> 3.8)
   - SwiftSpinner
 
 SPEC CHECKSUMS:
@@ -81,8 +85,9 @@ SPEC CHECKSUMS:
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   Protobuf: 2ccbaf193f6c65adc67745453ca0c13234c32796
   RAMAnimatedTabBarController: 4904a0ec08f2a4e935d0d3a5824551a77390b965
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SwiftSpinner: 62a28bbb4035f252a1e91b0e17fc40bdbbfa0aab
 
-PODFILE CHECKSUM: 2348ffac5ccea0366064bc68eb34ed6a9a63bdf4
+PODFILE CHECKSUM: 8cf910dea99b9e683cc452b5630916c970936585
 
 COCOAPODS: 1.0.1

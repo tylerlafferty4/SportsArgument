@@ -15,7 +15,6 @@
         <!--Sports Argument-->
         <scene sceneID="bg1-OT-nd2">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FHe-Sh-dDm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="x2j-kb-5mV" customClass="ChannelListViewController" customModule="SportsArgument" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="JJM-X8-sVb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -89,13 +88,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Sports Argument" id="udA-kz-mJV"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FHe-Sh-dDm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2790" y="-867"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="fNE-JP-QV9">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bTP-1r-Xjb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="IHh-zK-Dgq" customClass="ChatViewController" customModule="SportsArgument" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gTb-3o-Wit"/>
@@ -108,14 +107,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="94N-Ml-0XY"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bTP-1r-Xjb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3628" y="-867"/>
         </scene>
         <!--Locker Room-->
         <scene sceneID="emB-h0-MiE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XIN-tW-H0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="f80-M6-1wa" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8CN-Ua-xvG" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Locker Room" image="selectMessage" id="GeO-XA-bIA" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <userDefinedRuntimeAttributes>
@@ -142,6 +140,8 @@
                         <segue destination="x2j-kb-5mV" kind="relationship" relationship="rootViewController" id="gAb-B1-j4A"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XIN-tW-H0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="f80-M6-1wa" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="2009" y="-866"/>
         </scene>
@@ -890,7 +890,6 @@
         <!--Sports Argument-->
         <scene sceneID="FU3-Zt-nnc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kjd-xx-8wf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="XAr-yj-F9y" customClass="RSSViewController" customModule="SportsArgument" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UuL-yu-bn3"/>
@@ -972,13 +971,13 @@
                         <segue destination="qgR-Ai-SeC" kind="show" identifier="viewPost" id="gf8-Yw-dU4"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kjd-xx-8wf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2790" y="39"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="z6K-zx-qF3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VBX-R5-Bqx" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="qgR-Ai-SeC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zK1-wP-hw6"/>
@@ -990,14 +989,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VBX-R5-Bqx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3628" y="37"/>
         </scene>
         <!--Blog Posts-->
         <scene sceneID="th4-Cc-mqV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GQS-lB-mU9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="31h-fJ-Co7" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OJX-oc-46P" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Blog Posts" image="send" id="3hd-zY-k4v" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <userDefinedRuntimeAttributes>
@@ -1024,13 +1022,14 @@
                         <segue destination="XAr-yj-F9y" kind="relationship" relationship="rootViewController" id="BkS-5k-GNu"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GQS-lB-mU9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="31h-fJ-Co7" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="2009" y="38"/>
         </scene>
         <!--Sports Argument-->
         <scene sceneID="pFi-Af-k5y">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a6l-OO-us8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="FuO-6Q-Bzi" customClass="TwitterTimelineViewController" customModule="SportsArgument" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9Ap-gH-yyi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -1053,14 +1052,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Sports Argument" id="mPI-MN-ur2"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a6l-OO-us8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2790" y="1360"/>
         </scene>
         <!--Twitter-->
         <scene sceneID="8hS-PU-JJC">
             <objects>
-                <customObject id="oJr-c5-Fal" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ppQ-dt-ub3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oxf-iB-A0S" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Twitter" image="twitter" id="J8z-iN-Ym8" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <userDefinedRuntimeAttributes>
@@ -1087,39 +1085,186 @@
                         <segue destination="FuO-6Q-Bzi" kind="relationship" relationship="rootViewController" id="ltb-87-yHl"/>
                     </connections>
                 </navigationController>
+                <customObject id="oJr-c5-Fal" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppQ-dt-ub3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2006" y="1360"/>
         </scene>
         <!--Sports Argument-->
         <scene sceneID="dkA-R8-cEn">
             <objects>
-                <viewController id="Zom-qA-joQ" sceneMemberID="viewController">
+                <viewController id="Zom-qA-joQ" customClass="PhotoWallViewController" customModule="SportsArgument" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IEd-cW-SjF"/>
                         <viewControllerLayoutGuide type="bottom" id="W48-QS-mSJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lqg-4N-eWj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photo Wall Feature Coming Soon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlR-8X-mWw">
-                                <rect key="frame" x="61.5" y="323" width="252" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JAx-Ti-WiZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="imageCell" rowHeight="520" id="AdM-cI-SmG" customClass="PhotoWallCell" customModule="SportsArgument" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="520"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AdM-cI-SmG" id="5VI-R8-R5G">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="520"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default profile" translatesAutoresizingMaskIntoConstraints="NO" id="Ve6-YU-0FV">
+                                                    <rect key="frame" x="8" y="8" width="44" height="44"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="44" id="0Yp-sY-tn9"/>
+                                                        <constraint firstAttribute="width" constant="44" id="doe-YO-Kv2"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbA-PE-Qi2">
+                                                    <rect key="frame" x="60" y="19" width="307" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ve8-cB-MBU">
+                                                    <rect key="frame" x="8" y="60" width="359" height="401.5"/>
+                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-kO-nLs">
+                                                    <rect key="frame" x="0.0" y="469.5" width="375" height="50"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgA-J2-cCQ">
+                                                            <rect key="frame" x="0.0" y="0.0" width="184" height="50"/>
+                                                            <color key="backgroundColor" red="0.21960784310000001" green="0.47058823529999999" blue="0.87058823529999996" alpha="0.40740536971830987" colorSpace="calibratedRGB"/>
+                                                            <state key="normal" title="Like">
+                                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWw-OJ-ZZz">
+                                                            <rect key="frame" x="191" y="0.0" width="184" height="50"/>
+                                                            <color key="backgroundColor" red="0.89687639474868774" green="0.50917127866234513" blue="0.4679448041696086" alpha="0.40740536971830987" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <state key="normal" title="Flag">
+                                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </state>
+                                                        </button>
+                                                    </subviews>
+                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="TZv-lg-pBE"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Ve6-YU-0FV" firstAttribute="top" secondItem="5VI-R8-R5G" secondAttribute="top" constant="8" id="5nt-dp-NMU"/>
+                                                <constraint firstAttribute="bottom" secondItem="aVv-kO-nLs" secondAttribute="bottom" id="9Tt-OF-FC0"/>
+                                                <constraint firstItem="fbA-PE-Qi2" firstAttribute="top" secondItem="5VI-R8-R5G" secondAttribute="top" constant="19" id="EVl-y6-uFc"/>
+                                                <constraint firstItem="ve8-cB-MBU" firstAttribute="centerX" secondItem="5VI-R8-R5G" secondAttribute="centerX" id="Krz-Xj-6rE"/>
+                                                <constraint firstAttribute="trailing" secondItem="ve8-cB-MBU" secondAttribute="trailing" constant="8" id="U9z-7Y-S0G"/>
+                                                <constraint firstAttribute="trailing" secondItem="aVv-kO-nLs" secondAttribute="trailing" id="Z0g-5F-0Jr"/>
+                                                <constraint firstItem="ve8-cB-MBU" firstAttribute="leading" secondItem="5VI-R8-R5G" secondAttribute="leading" constant="8" id="c3n-B0-bFK"/>
+                                                <constraint firstItem="fbA-PE-Qi2" firstAttribute="leading" secondItem="Ve6-YU-0FV" secondAttribute="trailing" constant="8" id="edv-hw-qe4"/>
+                                                <constraint firstItem="aVv-kO-nLs" firstAttribute="leading" secondItem="5VI-R8-R5G" secondAttribute="leading" id="hKB-y6-Zu6"/>
+                                                <constraint firstItem="ve8-cB-MBU" firstAttribute="top" secondItem="Ve6-YU-0FV" secondAttribute="bottom" constant="8" id="pJC-of-lQX"/>
+                                                <constraint firstItem="ve8-cB-MBU" firstAttribute="bottom" secondItem="5VI-R8-R5G" secondAttribute="bottomMargin" id="rBd-TA-zbI"/>
+                                                <constraint firstItem="aVv-kO-nLs" firstAttribute="top" secondItem="ve8-cB-MBU" secondAttribute="bottom" constant="8" id="rCH-jW-81N"/>
+                                                <constraint firstItem="Ve6-YU-0FV" firstAttribute="leading" secondItem="5VI-R8-R5G" secondAttribute="leading" constant="8" id="tnp-RC-kfA"/>
+                                                <constraint firstAttribute="trailing" secondItem="fbA-PE-Qi2" secondAttribute="trailing" constant="8" id="wOO-BU-U3S"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="rBd-TA-zbI"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <connections>
+                                            <outlet property="imgView" destination="ve8-cB-MBU" id="chV-Hg-P0O"/>
+                                            <outlet property="profileImg" destination="Ve6-YU-0FV" id="Nen-GB-gAh"/>
+                                            <outlet property="userNameLbl" destination="fbA-PE-Qi2" id="E5J-ra-jeW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Zom-qA-joQ" id="8Ur-dz-L7k"/>
+                                    <outlet property="delegate" destination="Zom-qA-joQ" id="Arw-F4-Zx2"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FlR-8X-mWw" firstAttribute="centerX" secondItem="lqg-4N-eWj" secondAttribute="centerX" id="05B-ZC-vTG"/>
-                            <constraint firstItem="FlR-8X-mWw" firstAttribute="centerY" secondItem="lqg-4N-eWj" secondAttribute="centerY" id="VpN-nB-SOv"/>
+                            <constraint firstItem="JAx-Ti-WiZ" firstAttribute="leading" secondItem="lqg-4N-eWj" secondAttribute="leading" id="fqO-sg-GUU"/>
+                            <constraint firstAttribute="trailing" secondItem="JAx-Ti-WiZ" secondAttribute="trailing" id="g0D-jq-iZ0"/>
+                            <constraint firstItem="W48-QS-mSJ" firstAttribute="top" secondItem="JAx-Ti-WiZ" secondAttribute="bottom" id="jmS-Jw-LZ8"/>
+                            <constraint firstItem="JAx-Ti-WiZ" firstAttribute="top" secondItem="IEd-cW-SjF" secondAttribute="bottom" id="k6N-mf-CAS"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Sports Argument" id="VMZ-Az-YVd"/>
+                    <connections>
+                        <outlet property="tableView" destination="JAx-Ti-WiZ" id="wM5-40-uAX"/>
+                        <segue destination="xsR-Xm-bB7" kind="show" identifier="uploadPhoto" id="rO9-xd-ZoK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LuK-vl-1bd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2790" y="2051"/>
+            <point key="canvasLocation" x="2789.5999999999999" y="2050.5247376311845"/>
+        </scene>
+        <!--Upload Photo View Controller-->
+        <scene sceneID="kQq-z5-G3w">
+            <objects>
+                <viewController id="xsR-Xm-bB7" customClass="UploadPhotoViewController" customModule="SportsArgument" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c3D-T8-Ym8"/>
+                        <viewControllerLayoutGuide type="bottom" id="2nW-hy-7xj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5xd-tS-jLJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dcj-tZ-6Ka">
+                                <rect key="frame" x="58" y="124" width="259" height="351"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="oO4-x5-y4B"/>
+                                    <constraint firstAttribute="height" constant="351" id="x9x-op-j77"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybA-C6-pW4" customClass="CRNetworkButton" customModule="CRNetworkButton">
+                                <rect key="frame" x="112.5" y="515" width="150" height="35"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.47058823529999999" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="0AO-un-nyf"/>
+                                    <constraint firstAttribute="height" constant="35" id="BK1-uZ-4kp"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="startText" value="Upload"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="endText" value="Complete"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorText" value="Error"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="progressMode" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shouldAutoReverse" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="animateOnTap" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="uploadPhotoWithSender:" destination="xsR-Xm-bB7" eventType="touchUpInside" id="V90-oc-weq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ybA-C6-pW4" firstAttribute="top" secondItem="dcj-tZ-6Ka" secondAttribute="bottom" constant="40" id="9Bf-An-zOH"/>
+                            <constraint firstItem="dcj-tZ-6Ka" firstAttribute="centerX" secondItem="5xd-tS-jLJ" secondAttribute="centerX" id="aUB-ui-Eeo"/>
+                            <constraint firstItem="dcj-tZ-6Ka" firstAttribute="top" secondItem="c3D-T8-Ym8" secondAttribute="bottom" constant="60" id="geE-vI-5Fi"/>
+                            <constraint firstItem="ybA-C6-pW4" firstAttribute="centerX" secondItem="5xd-tS-jLJ" secondAttribute="centerX" id="nsR-Ql-yf7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="selectedImgView" destination="dcj-tZ-6Ka" id="a6G-lH-kg6"/>
+                        <outlet property="uploadBtn" destination="ybA-C6-pW4" id="bGe-EA-j2s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yk9-au-DQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3526" y="2051"/>
         </scene>
         <!--Photo Wall-->
         <scene sceneID="UOZ-A0-tsP">
@@ -1136,9 +1281,10 @@
                         </connections>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Nil-DV-02X">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nil-DV-02X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.21960784310000001" green="0.47058823529999999" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1169,7 +1315,7 @@
                         </connections>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0bw-cm-JTY">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0bw-cm-JTY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1193,6 +1339,7 @@
         <image name="background" width="375" height="667"/>
         <image name="button" width="60" height="20"/>
         <image name="clouds" width="750" height="110"/>
+        <image name="default profile" width="27" height="27"/>
         <image name="email" width="24" height="24"/>
         <image name="name" width="24" height="24"/>
         <image name="password" width="24" height="24"/>

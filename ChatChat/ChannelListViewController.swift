@@ -86,7 +86,7 @@ class ChannelListViewController: UITableViewController {
                 print("Error \(error!.localizedDescription)")
             }
         }
-    }
+    }   
   
     // MARK :Actions
   
@@ -176,8 +176,12 @@ class ChannelListViewController: UITableViewController {
     // MARK: UITableViewDelegate
   
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if (indexPath as NSIndexPath).section == Section.currentChannelsSection.rawValue {
-            let channel = channels[(indexPath as NSIndexPath).row]
+//        if (indexPath as NSIndexPath).section == Section.currentChannelsSection.rawValue {
+//            let channel = channels[(indexPath as NSIndexPath).row]
+//            self.performSegue(withIdentifier: "ShowChannel", sender: channel)
+//        }
+        if indexPath.section != 0 {
+            let channel = channels[indexPath.row]
             self.performSegue(withIdentifier: "ShowChannel", sender: channel)
         }
     }

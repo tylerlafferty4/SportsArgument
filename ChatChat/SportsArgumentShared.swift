@@ -13,8 +13,8 @@ let USER_NAME = "name"
 let USER_EMAIL = "email"
 let POLL_COMPLETE = "pollComplete"
 
-class SportsArgumentShared {
+class SAShared {
     
-    var sharedInstance = SportsArgumentShared()
+    var sharedInstance = SAShared()
     
 }

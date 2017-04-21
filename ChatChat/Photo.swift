@@ -12,6 +12,11 @@ import UIKit
 class Photo {
     
     var user: String! = ""
-    var photo: Data!
+    var photoUrl: String!
+    
+    init(user : String, photoUrl : String) {
+        self.user = user
+        self.photoUrl = photoUrl
+    }
 
 }

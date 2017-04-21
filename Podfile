@@ -10,4 +10,5 @@ target 'SportsArgument' do
   pod 'RAMAnimatedTabBarController'
   pod 'SwiftSpinner'
   pod 'CRNetworkButton'
+  pod 'SDWebImage', '~>3.8'
 end
