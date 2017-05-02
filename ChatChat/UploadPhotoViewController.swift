@@ -83,6 +83,8 @@ extension UploadPhotoViewController {
                 //                let downloadURL = metadata.downloadURL
                 sender.stopAnimate()
                 
+                self.navigationController?.popViewController(animated: true)
+                
             }
             
             // Track the progress of the upload

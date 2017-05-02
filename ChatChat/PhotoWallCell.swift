@@ -30,7 +30,6 @@ class PhotoWallCell : UITableViewCell {
         progressIndicatorView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         
         if let imageUrl = URL(string: photo.photoUrl) {
-            
             imgView.sd_setImage(with: imageUrl, placeholderImage: nil, options: .cacheMemoryOnly, progress: {
                 [weak self]
                 (receivedSize, expectedSize) -> Void in
@@ -44,17 +43,18 @@ class PhotoWallCell : UITableViewCell {
             }
         }
 
-        if photo.photoUrl != nil && photo.photoUrl.characters.count > 0 {            DispatchQueue.global(qos: .default).async(execute: {
-                if let imageUrl = URL(string: photo.photoUrl) {
-                    if let imageData = try? Data(contentsOf: imageUrl) {
-                        if let image = UIImage(data: imageData) {
-                            DispatchQueue.main.async(execute: { 
-                                self.imgView.image = image
-                            })
-                        }
-                    }
-                }
-            })
-        }
+//        if photo.photoUrl != nil && photo.photoUrl.characters.count > 0 {
+//            DispatchQueue.global(qos: .default).async(execute: {
+//                if let imageUrl = URL(string: photo.photoUrl) {
+//                    if let imageData = try? Data(contentsOf: imageUrl) {
+//                        if let image = UIImage(data: imageData) {
+//                            DispatchQueue.main.async(execute: { 
+//                                self.imgView.image = image
+//                            })
+//                        }
+//                    }
+//                }
+//            })
+//        }
     }
 }

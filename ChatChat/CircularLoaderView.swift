@@ -46,7 +46,7 @@ class CircularLoaderView : UIView, CAAnimationDelegate {
         circlePathLayer.fillColor = UIColor.clear.cgColor
         circlePathLayer.strokeColor = UIColor.red.cgColor
         layer.addSublayer(circlePathLayer)
-        backgroundColor = UIColor.white
+        backgroundColor = UIColor.clear
     }
     
     func circleFrame() -> CGRect {

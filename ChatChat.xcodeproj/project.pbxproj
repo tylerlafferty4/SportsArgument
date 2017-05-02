@@ -19,7 +19,6 @@
 		BB53557F1BEF765800321277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB53557D1BEF765800321277 /* Main.storyboard */; };
 		BB5355811BEF765800321277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5355801BEF765800321277 /* Assets.xcassets */; };
 		BB5355841BEF765800321277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5355821BEF765800321277 /* LaunchScreen.storyboard */; };
-		CD53B48C7195A1DD234F708B /* Pods_ChatChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BC8F0027B31CE77FCDB223 /* Pods_ChatChat.framework */; };
 		D8205B221EA64F0F0093369F /* PollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8205B211EA64F0F0093369F /* PollViewController.swift */; };
 		D8205B2A1EA93A0B0093369F /* PhotoWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8205B291EA93A0B0093369F /* PhotoWallViewController.swift */; };
 		D8205B351EA93CA80093369F /* PhotoWallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8205B341EA93CA70093369F /* PhotoWallCell.swift */; };
@@ -103,7 +102,6 @@
 				D8968A891EA5237800E729EB /* TwitterKit.framework in Frameworks */,
 				D8968A831EA521CB00E729EB /* Crashlytics.framework in Frameworks */,
 				D8968A821EA521CB00E729EB /* Fabric.framework in Frameworks */,
-				CD53B48C7195A1DD234F708B /* Pods_ChatChat.framework in Frameworks */,
 				29C0BFE3613EE78CCD78867D /* Pods_SportsArgument.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
